@@ -1,0 +1,8 @@
+package com.day2;
+import java.io.FileWriter;
+
+public class FileWriter {
+	public static void main(String[] args) {
+		FileWriter fw = new FileWriter("d:\\aa.txt");
+	}
+}

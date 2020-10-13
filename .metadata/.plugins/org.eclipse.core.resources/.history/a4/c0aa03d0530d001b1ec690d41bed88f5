@@ -1,0 +1,10 @@
+package com.day2;
+
+import java.io.FileReader;
+
+public class FileReaderDemo2 {
+	public static void main(String[] args) {
+		FileReader fr = new FileReader("fr.txt");
+		
+	}
+}

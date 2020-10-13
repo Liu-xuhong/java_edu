@@ -1,0 +1,7 @@
+package com.day2;
+
+public class FileWrterDemo2 {
+	public static void main(String[] args) {
+		Filewriter fw = new Filewriter("bb.txt");
+	}
+}

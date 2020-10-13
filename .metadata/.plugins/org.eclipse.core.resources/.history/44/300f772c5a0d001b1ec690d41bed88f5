@@ -1,0 +1,12 @@
+package com.day2;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class BufferedSteamDemo {
+	public static void main(String[] args) throws IOException {
+		BufferedWriter bw = new BufferedWriter(new FileWriter("a.txt"));
+		bw.write("abcd");
+	}
+}

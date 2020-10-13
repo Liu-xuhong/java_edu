@@ -1,0 +1,10 @@
+package com.day2;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWrterDemo2 {
+	public static void main(String[] args) throws IOException {
+		FileWriter fw = new FileWriter("bb.txt");
+	}
+}

@@ -1,0 +1,21 @@
+package com.day2;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWrterDemo2 {
+	public static void main(String[] args) throws IOException {
+		//创建输出流对象
+		FileWriter fw = new FileWriter("bb.txt");
+		
+		//输出字符串数据
+//		fw.write("abcd");
+		
+//		输出字符串中的一部分数据
+		fw.write("abcd",2, 0);
+		
+		//释放资源
+		fw.close();
+		
+	}
+}

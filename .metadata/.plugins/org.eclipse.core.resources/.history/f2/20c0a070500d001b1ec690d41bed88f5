@@ -1,0 +1,19 @@
+package com.day2;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWriteDemo3 {
+	public static void main(String[] args) throws IOException {
+//		创建输出流对象
+		FileWriter fw = new FileWriter("cc.txt");
+		
+//		循环输出
+		for(int i = 0; i<10; i++) {
+			fw.write("hello" + i);
+//			加换行符
+			fw.write("\r\n");
+		}
+		fw.close();
+	}
+}

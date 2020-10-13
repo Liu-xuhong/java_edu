@@ -1,0 +1,10 @@
+package com.day2;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWriteDemo3 {
+	public static void main(String[] args) throws IOException {
+		FileWriter fw = new FileWriter("cc.txt");
+	}
+}

@@ -1,0 +1,7 @@
+package com.day2;
+
+public class FileReadDemo3 {
+	public static void main(String[] args) {
+		FileReader fr = new FileRead(".\\src\\com\\day2\\FileWriteDemo3.java");
+	}
+}

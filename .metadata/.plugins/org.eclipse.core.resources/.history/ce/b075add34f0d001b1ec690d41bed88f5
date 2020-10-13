@@ -1,0 +1,7 @@
+package com.day2;
+
+public class FileWriteDemo3 {
+	public static void main(String[] args) {
+		FileWriter fw = new FileWriter("cc.txt");
+	}
+}
