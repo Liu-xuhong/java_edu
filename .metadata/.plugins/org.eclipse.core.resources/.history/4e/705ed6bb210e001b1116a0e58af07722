@@ -1,0 +1,16 @@
+package com.day3;
+
+/*
+ * 使用IO复制文件的几种方式
+ * 1.基本流读取字符并输出字符
+ * 2.基本流读取字符数组并输出字符数组
+ * 3.缓冲流读取字符并输出字符
+ * 4.缓冲流读取字符数组并输出字符数组
+ * 5.缓冲流的高级用法，读取一行数据并输出一行
+ * */
+
+public class BufferedPractice {
+	public static void main(String[] args) {
+		String filename = ".\\src\\com\\day2\\BufferedSteamDemo1.java";
+	}
+}
