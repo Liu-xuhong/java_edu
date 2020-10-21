@@ -1,7 +1,0 @@
-package com.day2;
-
-public class FileReaderDemo1 {
-	public static void main(String[] args) {
-		FileReader fr = new FileReader("cc.txt");
-	}
-}

@@ -1,0 +1,23 @@
+package com.day6;
+/*
+ * 继承的就近原则：使用优先级高的变量
+ * 
+ * */
+public class Demo3 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Dad{
+	String name = "健林";
+}
+
+class kid extends Dad{
+	String name = "思聪";
+	
+	public void show() {
+		String name = "冠希哥";
+		System.out.println(name);
+	}
+}

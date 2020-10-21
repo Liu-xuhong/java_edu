@@ -1,0 +1,31 @@
+package com.day6;
+
+public class Demo2 {
+	public static void main(String[] args) {
+		LOL l = new LOL();
+		l.update();
+		l.start();
+	}
+}
+
+class Game{
+	public void start() {
+		System.out.println("游戏启动了~");
+	}
+}
+
+class PcGame extends Game{
+	public void update() {
+		System.out.println("PC游戏更新了");
+	}
+}
+
+class mobileGame extends Game{
+	public void update() {
+		System.out.println("mobile游戏更新了");
+	}
+}
+
+class LOL extends PcGame{
+	
+}

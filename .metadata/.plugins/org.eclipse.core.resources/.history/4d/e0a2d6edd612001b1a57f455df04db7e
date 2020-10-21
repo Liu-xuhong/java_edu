@@ -1,0 +1,20 @@
+package com.day5;
+
+public class MyDemo2 {
+	private String name;
+	
+	private int age;
+	
+	private String sex;
+	
+//	无参构造
+	public MyDemo2() {}
+	
+//	有参构造
+	public MyDemo2(String name,int age,String sex) {
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+	
+}

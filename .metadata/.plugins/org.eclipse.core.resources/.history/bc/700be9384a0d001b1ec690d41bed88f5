@@ -1,7 +1,0 @@
-package com.day2;
-
-public class FileWriter {
-	public static void main(String[] args) {
-		FileWriter fw = new FileWriter("d:\\aa.txt");
-	}
-}

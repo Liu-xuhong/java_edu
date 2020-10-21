@@ -1,7 +1,0 @@
-package com.day2;
-
-public class BufferedSteamDemo {
-	public static void main(String[] args) {
-		
-	}
-}

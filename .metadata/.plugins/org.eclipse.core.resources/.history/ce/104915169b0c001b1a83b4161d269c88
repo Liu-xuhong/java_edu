@@ -1,6 +1,0 @@
-package com.day1;
-
-public class firstDeno {
-	String i = "hellow world";
-	system.out.println(i);
-}
