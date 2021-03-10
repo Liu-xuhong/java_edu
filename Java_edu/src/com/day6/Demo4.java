@@ -11,6 +11,8 @@ public class Demo4 {
 	public static void main(String[] args) {
 		sun s = new sun();
 		s.eat();
+		s.eat("hehe");
+		s.sleep();
 	}
 }
 
@@ -22,10 +24,20 @@ class daddy{
 }
 
 class sun extends daddy{
+	//重写父类方法
 	public void eat() {
 		System.out.println("干了两大碗米饭");
 		System.out.println("喝了一罐肥宅快乐水");
 		System.out.println("跑了两公里");
 		System.out.println("然后去洗洗睡");
+	}
+
+	//重载父类方法：在一个类中，多个重名的方法，但是其参数不一样（参数的类型，参数的个数，参数的顺序）和返回值无关
+	public void eat(String y){
+		System.out.println(y+" ，哈哈哈");
+	}
+
+	public static void sleep(){
+		System.out.println("Zzzzz....");
 	}
 }

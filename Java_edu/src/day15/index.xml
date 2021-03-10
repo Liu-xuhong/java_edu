@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gbk" ?>
+<!--xml version 代表xml的版本-->
+<!--encoding 代表使用什么编码去解析xml文档
+保存的文件是什么编码格式，解析时就需要是什么编码格式-->
+<stus>
+    <stu>
+        <name>小张</name>
+        <age>18</age>
+    </stu>
+    <stu>
+        <name>小王</name>
+        <age>28</age>
+    </stu>
+    <stu>
+        <name>小李</name>
+        <age>22</age>
+    </stu>
+
+</stus>

@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Demo1 {
     public static void main(String[] args) {
+        //定义初始学生集合
         ArrayList<Student> array = new ArrayList<Student>();
         int foo = 0;
         while (foo != 5){
@@ -22,6 +23,8 @@ public class Demo1 {
             Scanner sc = new Scanner(System.in);
 
             foo = sc.nextInt();
+
+            //根据用户选择的操作项执行相应的方法
             switch (foo){
                 case 1:
                     insStudent(array);
@@ -47,7 +50,7 @@ public class Demo1 {
 
     public static void insStudent(ArrayList<Student> array){
         Scanner sc = new Scanner(System.in);
-
+        //定义新增学员的方法，新增学员时判断学员学号是否已经存在
         System.out.println("请输入学生学号:");
         String id = sc.nextLine();
         for(int i = 0;i< array.size();i++){
